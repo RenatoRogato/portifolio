@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - @REALEEZ</title>
+        <!--Inserting fonts by google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <!--CSS Connection-->
+    <link rel="stylesheet" href="./assets/CSS/styles.css">
+</head>
+<body>
+    <!--Insert input to close/open menu-->
+    <input class="close-menu" type="checkbox" id="close-menu" aria-label="menu close" role="button">
+    <label class="close-menu-label" for="close-menu" title="menu by close"></label>
+    <!--Create the menu-->
+    <aside class="menu menu-bar-asside menu-bg">
+        <div class="div-logo-home">
+            <h2 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">LOGO</a>
+            </h2>
+         <nav class="navigation-bar menu-list">
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li><a href="#home">home</a></li>
+                <li><a href="#About">sobre nós</a></li>
+                <li><a href="#gallery">portifólio</a></li>
+                <li><a href="#contact">contato</a></li>
+                <li><a href="#">Downloads</a></li>
+            </ul>
+        </nav>
+        </div>
+    </aside>
+    <header class="header main-bg" id="home">
+       <div class="flex-box">
+            <div class="box-one">
+                <img src="./assets/img/logo_one.png" alt="Logotipo REALEEZ Sistemas e Automação">
+            </div> 
+            <div class="secondary-flex-box">
+                <div class="box-two">
+                    <h2>Seja bem vindo home 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis ullam fuga labore doloribus vero ea commodi, debitis maiores nesciunt similique, saepe dolorem exercitationem eaque amet blanditiis porro ratione atque.</p>
+                </div>
+                <div class="box-three">
+                    <h2>Seja bem vindo home 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis ullam fuga labore doloribus vero ea commodi, debitis maiores nesciunt similique, saepe dolorem exercitationem eaque amet blanditiis porro ratione atque.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main_primary">
+        <Section class="second-bg">
+             <div class="second_division" id="About">
+                 <h3>sobre nós</h3>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, ut exercitationem repellendus molestias corrupti temporibus. Sed saepe, non aut distinctio veritatis officia, fugiat suscipit ipsum nihil itaque ea, exercitationem iste?
+                 </p>
+             </div>
+        </Section>
+        <Section class="third-bg">
+            <div class="third_division" id="gallery">
+                <h3>Conheça nosso Portifólio</h3>
+                <div class="grid">
+                    <div class="grid-content1"></div>
+                    <div class="grid-content2"></div>
+                    <div class="grid-content3"></div>
+                    <div class="grid-content4"></div>
+                    <div class="grid-content5"></div>
+                    <div class="grid-content6"></div>
+                </div>
+            </div>
+        </Section>
+        <Section class="contact-bg" id="contact">
+        <div class="grid-contact">
+            <div class="contact-text">
+                <h1>Titulo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum enim labore, adipisci sed ipsam alias asperiores laudantium cum. Ratione corporis at ut eum placeat aut eius officiis iste amet corrupti.</p>
+            </div>
+            <div class="contact-img">
+                <img src="./assets/img/logo.gif" alt="Descrição da Imagem">
+            </div>
+            <div class="contact-form">
+            <fieldset class="form-contact">
+                <legend>Contato</legend>
+                    <div class="contact">
+                    <div class="contact-content">
+                        <label for="first-name">Nome:</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Digite seu nome completo">
+                    </div>
+                    <div class="contact-content">
+                        <label for="email" class="email">E-mail:</label>
+                        <input type="email" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="contact-content">
+                        <label for="tel" class="tel">Telefone</label>
+                        <input type="tel" name="tel" id="tel" placeholder="(XX) XXXX - XXXX">
+                    </div>
+                    <div class="contact-content">
+                        <label for="message" class="message">Mensagem</label>
+                        <textarea name="message" id="message" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="contact-content">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </div>
+            </fieldset>
+            </div>
+        </div>
+
+        </Section>
+    </main>
+    <footer class="footer footer-bg">
+        <p>Criado por REALEEZ Sistemas e Automação - 2024</p>
+    </footer>
+</body>
+</html>

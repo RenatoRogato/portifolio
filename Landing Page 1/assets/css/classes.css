@@ -1,0 +1,30 @@
+/*Classe para adicionar o background com imagem aos elementos*/
+.main-bg{
+    background-image: url('../img/main-bg.svg');
+    background-size: cover; /*Ajusta a imagem a tela automaticamente*/
+    background-position: center; /*Centraliza a imagem*/
+    color: var(--white-color);
+}
+/*Classe de conteudo - Sustentação do conteudo*/
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+/*Clase das seções para que ocupem toda a altura da tela*/
+.section{
+    min-height: 100vh;
+}
+/*Classe para adicionar fundo claro*/
+.white-bg{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+/*Espaço entre menu e conteudo*/
+.menu-spacing{
+    height: 65px;
+}
+body .full-width{
+    width: 100%;
+    flex: 1 1 100%;
+}
