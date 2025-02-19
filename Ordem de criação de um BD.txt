@@ -1,0 +1,8 @@
+Etapas de criação de um projeto SQL
+
+1º Acesso ao SQL Server Management Studio
+2º criação da pasta do banco de dados
+3º criação dos arquivos: Arquivo de Dados e Arquivo de LOG
+4º criar tabelas
+5º criar relacionamento das tabelas
+6º Inserir e editar dados
